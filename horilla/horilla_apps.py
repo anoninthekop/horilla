@@ -13,5 +13,6 @@ INSTALLED_APPS.append("horilla_documents")
 INSTALLED_APPS.append("haystack")
 INSTALLED_APPS.append("helpdesk")
 INSTALLED_APPS.append("offboarding")
+INSTALLED_APPS.append("biometric")
 
 setattr(settings,"EMAIL_BACKEND","base.backends.ConfiguredEmailBackend")

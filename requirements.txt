@@ -38,6 +38,7 @@ python-bidi
 python-dateutil
 pytz
 PyYAML
+Pyzk
 qrcode
 reportlab
 requests
