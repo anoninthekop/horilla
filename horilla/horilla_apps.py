@@ -14,8 +14,10 @@ INSTALLED_APPS.append("horilla_documents")
 INSTALLED_APPS.append("haystack")
 INSTALLED_APPS.append("helpdesk")
 INSTALLED_APPS.append("offboarding")
+INSTALLED_APPS.append("biometric")
 INSTALLED_APPS.append("auditlog")
 
+setattr(settings,"EMAIL_BACKEND","base.backends.ConfiguredEmailBackend")
 
 AUDITLOG_INCLUDE_ALL_MODELS = True
 
